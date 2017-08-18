@@ -5,3 +5,9 @@ machine:
   node:
     version:
       8.1.4
+
+deployment:
+  staging:
+    branch: master
+    commands:
+      - sh ./deploy_staging.sh
