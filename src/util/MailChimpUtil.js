@@ -6,11 +6,11 @@ const hubUrl = 'https://e1raa2dpna.execute-api.us-east-1.amazonaws.com/productio
 export function getSubscriberStatus(email) {
   rp(`${hubUrl}/list?email=${email}`)
     .then((response) => {
-        FormActions.APIResponse(response);
+      FormActions.APIResponse(response);
     })
-    .catch(function (err) {
-        // API call failed...
-        console.log('Failed API Call'); 
+    .catch((err) => {
+      // API call failed...
+      console.log(`Failed API Call ${err}`);
     });
 }
 
@@ -23,10 +23,10 @@ export function addSubscriber(email) {
   };
   rp.post(options)
     .then((repos) => {
-        console.log(repos);
+      console.log(repos);
     })
-    .catch(function (err) {
-        // API call failed...
-        console.log('Failed API Call'); 
+    .catch((err) => {
+      // API call failed...
+      console.log(`Failed API Call ${err}`);
     });
 }

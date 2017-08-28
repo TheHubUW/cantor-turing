@@ -9,7 +9,7 @@ const FormStoreActions = {
       data,
     });
   },
-  
+
   submit: () => {
     AppDispatcher.handleViewAction({
       actionType: FormConstants.SUBMIT,
