@@ -1,10 +1,6 @@
 import React, { Component } from 'react'
 
 export default class Profile extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="col-sm-4">
@@ -16,17 +12,17 @@ export default class Profile extends Component {
           <p className="text-muted">{this.props.user_bio}</p>
           <ul className="list-inline social-buttons">
             <li className="list-inline-item">
-              <a href="#">
+              <a href="">
                 <i className="fa fa-twitter"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="#">
+              <a href="">
                 <i className="fa fa-facebook"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="#">
+              <a href="">
                 <i className="fa fa-linkedin"></i>
               </a>
             </li>
