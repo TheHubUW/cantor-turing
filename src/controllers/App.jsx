@@ -32,7 +32,7 @@ export default class FormStoreApp extends Component {
 
   render() {
     return (
-    <div>
+    <div id="page-top">
       <Navigation />
       <Header />
       <Signup value={this.state.value}/>
