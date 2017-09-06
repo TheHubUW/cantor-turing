@@ -3,16 +3,24 @@ import { CORS_HEADERS } from '../../lib/cors'
 
 export function handler (event, context, callback) {
   console.log(event)
+  try {
   main(JSON.parse(event.body))
     .then((resp) => {
+      console.log(resp)
       callback(null, resp)
     })
     .catch((err) => {
+      console.log(err)
       callback(null, { statusCode: 500, headers: CORS_HEADERS, body: err })
     })
+  } catch (err) {
+    console.log(err)
+    callback(null, err)
+  }
 }
 
 function main (body) {
+  console.log(body)
   const email = body.email
   return addToMailchimp(email)
     .then((resp) => {
