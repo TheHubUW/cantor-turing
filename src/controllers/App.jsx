@@ -33,7 +33,12 @@ export default class FormStoreApp extends Component {
     <div id="page-top">
       <Navigation />
       <Header />
-      <Signup submit={this.state.form.submit} value={this.state.form.email.value}/>
+      <Signup 
+        submit={this.state.form.submit} 
+        email={this.state.form.email} 
+        firstName={this.state.form.firstName}
+        lastName={this.state.form.lastName}
+      />
       <Members />
       <Footer />
     </div>

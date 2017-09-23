@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 const FormActions = require('../actions/FormActions');
+const SignUpConstants = require('../constants/SignUpConstants');
 
 function onSubmit() {
   FormActions.submit();
@@ -12,25 +13,47 @@ export default class SignUp extends Component {
   }
 
   handleChange(event) {
-    FormActions.set(event.target.value);
+    FormActions.set(event.target.value, event.target.id);
+    console.log(event.target);
   }
 
   render() {
     let display;
-    console.log(this.props.submit);
     if (this.props.submit) {
       display = (
         <div>
-          <p>Thank you for subscribing! We sent an email to <b><i>{this.props.value}</i></b> for you to comfirm your subscription</p>
+          <p>Thank you for subscribing! We sent an email to <b><i>{this.props.email.value}</i></b> for you to comfirm your subscription</p>
         </div>
       );
     } else {
       display = (
-        <div>
-          <input className="col-sm-4 text-box" type='email' value={this.props.value} onChange={this.handleChange} />
+        <form>
+          <input 
+            id={SignUpConstants.EMAIL} 
+            className="col-sm-4 text-box" 
+            type='email' 
+            value={this.props.email.value} 
+            placeholder="Email"
+            onChange={this.handleChange} />
+          <br />
+          <input 
+            id={SignUpConstants.FIRST_NAME} 
+            className="col-sm-4 text-box" 
+            type='text' 
+            value={this.props.firstName.value} 
+            placeholder="First Name"
+            onChange={this.handleChange} />
+          <br />
+          <input 
+            id={SignUpConstants.LAST_NAME} 
+            className="col-sm-4 text-box" 
+            type='text' 
+            value={this.props.lastName.value} 
+            placeholder="Last Name"
+            onChange={this.handleChange} />
           <br />
           <input className="btn btn-xl js-scroll-trigger" value='Subscribe' type='button' onClick={onSubmit} />
-        </div>
+        </form>
       );
     }
     return (
