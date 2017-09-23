@@ -16,6 +16,7 @@ loadFormInfo(
       email: {
         value: '',
       },
+      submit: false,
     },
   },
 );
@@ -29,6 +30,7 @@ function set(data) {
 function submit() {
   console.log(formInfo.email.value);
   MailChimpUtil.addSubscriber(formInfo.email.value);
+  formInfo.submit = true; 
 }
 
 function mailDecision(data) {
