@@ -19,6 +19,7 @@ export function addSubscriber(email, fields = {}) {
     method: 'POST',
     uri: `${hubUrl}/list`,
     body: { email, fields },
+
     json: true,
   };
   rp.post(options)
