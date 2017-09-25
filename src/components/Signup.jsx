@@ -18,14 +18,18 @@ export default class SignUp extends Component {
   }
 
   render() {
-    let display;
-    if (this.props.submit) {
+    let display = null;
+    let error;
+    if (this.props.submit && this.props.validated) {
       display = (
         <div>
           <p>Thank you for subscribing! We sent an email to <b><i>{this.props.email.value}</i></b> for you to comfirm your subscription</p>
         </div>
       );
     } else {
+      if (this.props.submit && !this.props.validated) {
+        error = <p>Please fill out all fields</p>
+      };
       display = (
         <form>
           <input 
@@ -53,6 +57,8 @@ export default class SignUp extends Component {
             onChange={this.handleChange} />
           <br />
           <input className="btn btn-xl js-scroll-trigger" value='Subscribe' type='button' onClick={onSubmit} />
+          <br />
+          {error}
         </form>
       );
     }

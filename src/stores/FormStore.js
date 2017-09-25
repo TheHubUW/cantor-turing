@@ -17,6 +17,7 @@ loadFormInfo(
     firstName: { value: '' },
     lastName: { value: '' },
     submit: false,
+    validated: false,
   },
 );
 
@@ -39,12 +40,18 @@ function set(data, type) {
 
 function submit() {
   console.log(formInfo.email.value);
-  MailChimpUtil.addSubscriber(
-    formInfo.email.value,
-    formInfo.firstName.value,
-    formInfo.lastName.value,
-  );
   formInfo.submit = true;
+  
+  if (formInfo.email === '' || formInfo.firstName === '' || formInfo.lastName === '') {
+    formInfo.validated = false;
+  } else {
+    MailChimpUtil.addSubscriber(
+      formInfo.email.value,
+      formInfo.firstName.value,
+      formInfo.lastName.value,
+    );
+    formInfo.validated = true;
+  }
 }
 
 function mailDecision(data) {

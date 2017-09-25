@@ -38,6 +38,7 @@ export default class FormStoreApp extends Component {
         email={this.state.form.email} 
         firstName={this.state.form.firstName}
         lastName={this.state.form.lastName}
+        validated={this.state.form.validated}
       />
       <Members />
       <Footer />
