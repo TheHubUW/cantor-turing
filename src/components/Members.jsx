@@ -5,15 +5,45 @@ var obj = {
   "users": [
     {
     user_name: 'Chris Olszewski',
-    user_bio: 'I am a CS nerd',
-    img_src: 'ChrisOlszewski',
+    user_bio: 'Computer Science & Mathematics',
+    img_src: 'Chris',
     profile_link: 'Chris',
     },
     {
       user_name: 'Ben Hansen',
-      user_bio: 'I am not a CS nerd',
-      img_src: 'BenHansen',
+      user_bio: 'Computer Science & Mathematics & Communication Arts',
+      img_src: 'Ben',
       profile_link: 'Ben',
+    },
+    {
+      user_name: 'Nicholas Mandal',
+      user_bio: 'Computer Science & Business',
+      img_src: 'Nick',
+      profile_link: 'http://nickmandal.com/'
+    },
+    {
+      user_name: 'Griffin Kelley',
+      user_bio: 'Computer Science',
+      img_src: 'Griffin',
+      profile_link: 'http://www.GriffinKelley.com'
+    },
+    {
+      user_name: 'Cynthia Qian',
+      user_bio: 'Computer Science',
+      img_src: 'Cynthia',
+      profile_link: 'Cynthia',
+    },
+    {
+      user_name: 'Kendra Raczek',
+      user_bio: 'Computer Science',
+      img_src: 'Kendra',
+      profile_link: 'Kendra',
+    },
+    {
+      user_name: 'Caroline Clancy',
+      user_bio: 'Computer Science',
+      img_src: 'Caroline',
+      profile_link: 'Caroline',
     },
   ]
 }
