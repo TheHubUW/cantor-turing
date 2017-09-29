@@ -5,21 +5,21 @@ export default class Profile extends Component {
     if(this.props.twitter) {
       console.log("twitter");
       this.twitterDisplay = (
-        <a href={this.props.twitter} target="_blank">
+        <a href={this.props.twitter} target="_blank" rel="noopener noreferrer">
           <i className="fa fa-twitter"></i>
         </a>
       );
     }
     if (this.props.fb) {
       this.fbDisplay = (
-        <a href={this.props.fb}>
-          <i className="fa fa-facebook" target="_blank"></i>
+        <a href={this.props.fb} target="_blank" rel="noopener noreferrer">
+          <i className="fa fa-facebook"></i>
         </a>
       );
     }
     if (this.props.linkedIn) {
       this.linkedInDisplay = (
-      <a href={this.props.linkedIn} target="_blank">
+      <a href={this.props.linkedIn} target="_blank" rel="noopener noreferrer">
         <i className="fa fa-linkedin"></i>
       </a>
       );
