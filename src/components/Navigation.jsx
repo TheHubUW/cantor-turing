@@ -28,8 +28,14 @@ export default class Navigaiton extends Component {
         </button>
         <div className={this.state.navClass} id="navbarResponsive">
           <ul className="navbar-nav ml-auto" onClick={this.onClick}>
+          <li className="nav-item">
+              <a className="nav-link js-scroll-trigger" href="#about">About Us</a>
+            </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#email-list">Email List</a>
+              <a className="nav-link js-scroll-trigger" href="#community">Discord</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link js-scroll-trigger" href="#email-list">Newsletter</a>
             </li>
             <li className="nav-item">
               <a className="nav-link js-scroll-trigger" href="#members">Members</a>
