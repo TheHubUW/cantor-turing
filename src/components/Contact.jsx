@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class Navigaiton extends Component {
+export default class Contact extends Component {
   render() {
     return (
       <section className="bg-light" id='contact'>

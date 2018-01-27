@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Navigation from '../components/Navigation';
 import Header from '../components/Header';
+import About from '../components/About';
+import Community from '../components/Community';
 import Signup from '../components/Signup';
 import Members from '../components/Members';
 import Contact from '../components/Contact';
@@ -33,6 +35,8 @@ export default class FormStoreApp extends Component {
     <div id="page-top">
       <Navigation />
       <Header />
+      <About />
+      <Community />
       <Signup 
         submit={this.state.form.submit} 
         email={this.state.form.email} 
