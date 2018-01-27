@@ -8,7 +8,15 @@ body {
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 p {
-  line-height: 1.75; }
+  line-height: 1.75;}
+
+p.left {
+  text-align: left; 
+}
+
+p.center {
+  text-align: center; 
+}
 
 p.text-danger {
     color: #e74c3c; }
@@ -27,6 +35,16 @@ h6 {
   font-weight: 700;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase; }
+
+.inline {
+  display: inline-block;
+  margin-left: 1em;
+  margin-bottom: 2em;
+}
+
+.line-break {
+  margin-bottom: 2em;
+}
 
 .text-box {
   margin: 5px;
@@ -572,6 +590,7 @@ ul.social-buttons {
     background-color: white; }
 
 .btn-xl {
+  margin-top: 2em;
   font-size: 18px;
   font-weight: 700;
   padding: 20px 40px;

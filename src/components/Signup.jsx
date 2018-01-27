@@ -76,7 +76,19 @@ export default class SignUp extends Component {
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center">
-              <h2 className="section-heading">Email List</h2>
+              <h2 className="section-heading">Newsletter</h2>
+              <h3 className="email-subheading text-muted">Apply for a general announcement or an event promotion to go on our next newsletter</h3>
+              <div className="inline">
+              <form action="https://goo.gl/forms/ChDLqnXFlAJjQktC2">
+                <input type="submit" className="btn btn-xl js-scroll-trigger" value="Announcement" />
+              </form>
+              </div>
+              <div className="inline">
+              <form action="https://goo.gl/forms/IJSyZp9wCu281aY73">
+                <input type="submit" className="btn btn-xl js-scroll-trigger" value="Event Promotion" />
+              </form>
+              </div>
+              <br />
               <h3 className="email-subheading text-muted">Sign up for our email list to receive updates on events</h3>
               {display}
             </div>
