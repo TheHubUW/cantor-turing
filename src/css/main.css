@@ -8,12 +8,8 @@ body {
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 p {
-<<<<<<< HEAD
-  line-height: 1.75;}
-=======
   line-height: 1.75;
 }
->>>>>>> s3-move
 
 p.left {
   text-align: left; 
