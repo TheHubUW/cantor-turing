@@ -28,7 +28,7 @@ export default class Profile extends Component {
       <div className="col-sm-4">
         <div className="team-member">
           <a href={this.props.profile_link}>
-            <img className="mx-auto rounded-circle" src={require(`../profile_img/${this.props.img_src}.jpg`)} alt="" />
+            <img className="mx-auto rounded-circle" width="100px" src={require(`../profile_img/${this.props.img_src}.JPG`)} alt="" />
           </a>
           <h4>{this.props.user_name}</h4>
           <p className="text-muted">{this.props.user_bio}</p>
