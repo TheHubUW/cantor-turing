@@ -25,6 +25,7 @@ var obj = {
       profile_link: 'http://nickmandal.com/',
       fb: 'https://www.facebook.com/nick.mandal',
       linkedIn: 'https://www.linkedin.com/in/nicholasmandal/',
+      twitter: 'https://twitter.com/nicholasmandal',
     },
     {
       user_name: 'Griffin Kelley',
@@ -35,7 +36,7 @@ var obj = {
     },
     {
       user_name: 'Rodrigo Smith',
-      user_bio: 'Computer Science',
+      user_bio: 'Mathematics',
       img_src: 'Rodrigo',
       profile_link: 'Rodrigo',
     },
@@ -55,7 +56,9 @@ var obj = {
       user_name: 'Monica Ceisel',
       user_bio: 'Computer Science',
       img_src: 'Monica',
-      profile_link: 'Monica',
+      profile_link: 'https://github.com/ceiselm',
+      linkedIn: 'https://www.linkedin.com/in/monicaceisel/',
+      twitter: 'https://twitter.com/Momonimations',
     },
     {
       user_name: 'Spencer Fricke',
@@ -64,16 +67,16 @@ var obj = {
       profile_link: 'Spencer',
     },
     {
-      user_name: 'Manuel Gomez',
-      user_bio: 'Computer Science',
-      img_src: 'Manuel',
-      profile_link: 'Manuel',
-    },
-    {
       user_name: 'Peter Jochem',
       user_bio: 'Computer Science',
       img_src: 'Peter',
       profile_link: 'Peter',
+    },
+    {
+      user_name: 'Manuel Gomez',
+      user_bio: 'Computer Science',
+      img_src: 'Manuel',
+      profile_link: 'Manuel',
     },
     {
       user_name: 'Claire Jolly',
@@ -81,6 +84,19 @@ var obj = {
       img_src: 'Claire',
       profile_link: 'Claire',
     },
+    {
+      user_name: 'David Chen',
+      user_bio: 'Computer Science',
+      img_src: 'David',
+      profile_link: 'David',
+    },    
+    {
+      user_name: 'Jordan Nunez',
+      user_bio: 'Computer Engineering',
+      img_src: 'Jordan',
+      profile_link: 'Jordan',
+    },
+
   ]
 }
 
