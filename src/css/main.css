@@ -151,17 +151,18 @@ body {
         font-size: 1.25em;
         padding: 12px 0; } }
 
+.logo-header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 100px;
+}
+
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/yellow-sm-bg.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+}
   header.masthead .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;}
@@ -180,9 +181,6 @@ header.masthead {
       text-transform: uppercase; }
 
 @media (min-width: 768px) {
-  header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 40px;
       font-style: italic;
