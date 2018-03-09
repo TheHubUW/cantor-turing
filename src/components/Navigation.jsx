@@ -20,7 +20,7 @@ export default class Navigaiton extends Component {
   return (
    <nav className="navbar navbar-shrink navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div className="container">
-      <a className="navbar-brand js-scroll-trigger" href="#page-top">The Hub</a>
+      <a className="navbar-brand js-scroll-trigger" href="#page-top"><img className="mx-auto rounded-circle" height="40" width="40" src={require('../img/Hub_Logo.jpg')} alt="The Hub" /></a>
 
         <button className="navbar-toggler navbar-toggler-right" type="button" onClick={this.onClick} >
           Menu
