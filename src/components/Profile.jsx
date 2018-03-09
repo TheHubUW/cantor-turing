@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 export default class Profile extends Component {
   render() {
     if(this.props.twitter) {
-      console.log("twitter");
       this.twitterDisplay = (
         <a href={this.props.twitter} target="_blank" rel="noopener noreferrer">
           <i className="fa fa-twitter"></i>

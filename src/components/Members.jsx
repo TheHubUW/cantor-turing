@@ -36,53 +36,6 @@ var obj = {
     },
     {
       user_name: 'Rodrigo Smith',
-<<<<<<< HEAD
-      user_bio: 'Computer Science',
-      img_src: 'Rodrigo',
-      profile_link: 'Rodrigo',
-    },
-    {
-      user_name: 'Lexi Kenwood',
-      user_bio: 'Computer Science',
-      img_src: 'Lexi',
-      profile_link: 'Lexi',
-    },
-    {
-      user_name: 'Sean Rice',
-      user_bio: 'Computer Science',
-      img_src: 'Sean',
-      profile_link: 'Sean',
-    },
-    {
-      user_name: 'Monica Ceisel',
-      user_bio: 'Computer Science',
-      img_src: 'Monica',
-      profile_link: 'Monica',
-    },
-    {
-      user_name: 'Spencer Fricke',
-      user_bio: 'Computer Science',
-      img_src: 'Spencer',
-      profile_link: 'Spencer',
-    },
-    {
-      user_name: 'Manuel Gomez',
-      user_bio: 'Computer Science',
-      img_src: 'Manuel',
-      profile_link: 'Manuel',
-    },
-    {
-      user_name: 'Peter Jochem',
-      user_bio: 'Computer Science',
-      img_src: 'Peter',
-      profile_link: 'Peter',
-    },
-    {
-      user_name: 'Claire Jolly',
-      user_bio: 'Computer Science',
-      img_src: 'Claire',
-      profile_link: 'Claire',
-=======
       user_bio: 'Mathematics',
       img_src: 'Rodrigo',
       profile_link: 'Rodrigo',
@@ -112,7 +65,6 @@ var obj = {
       user_bio: 'Computer Science',
       img_src: 'Spencer',
       profile_link: 'Spencer',
->>>>>>> bed3f73dde77c35683717324cc4d109abccf6a60
     },
     {
       user_name: 'Peter Jochem',
