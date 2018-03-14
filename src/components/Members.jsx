@@ -20,7 +20,7 @@ var obj = {
     },
     {
       user_name: 'Nicholas Mandal',
-      user_bio: 'Computer Science & Business',
+      user_bio: 'Computer Science & Statistics',
       img_src: 'Nick',
       profile_link: 'http://nickmandal.com/',
       fb: 'https://www.facebook.com/nick.mandal',
@@ -62,7 +62,7 @@ var obj = {
     },
     {
       user_name: 'Spencer Fricke',
-      user_bio: 'Computer Science',
+      user_bio: 'Computer Engineering',
       img_src: 'Spencer',
       profile_link: 'Spencer',
     },
