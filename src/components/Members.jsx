@@ -62,7 +62,7 @@ var obj = {
     },
     {
       user_name: 'Spencer Fricke',
-      user_bio: 'Computer Science',
+      user_bio: 'Computer Engineering',
       img_src: 'Spencer',
       profile_link: 'Spencer',
     },
