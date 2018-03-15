@@ -53,9 +53,9 @@ var obj = {
       profile_link: 'Sean',
     },
     {
-      user_name: 'Monica Ceisel',
+      user_name: 'Mónica Ceisel',
       user_bio: 'Computer Science',
-      img_src: 'Monica',
+      img_src: 'Mónica',
       profile_link: 'https://github.com/ceiselm',
       linkedIn: 'https://www.linkedin.com/in/monicaceisel/',
       twitter: 'https://twitter.com/Momonimations',
